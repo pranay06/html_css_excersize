@@ -4,14 +4,15 @@ body{
 }
 
 .mainDiv{
-  margin-left: 500px;
+  margin-left: auto;
   text-align: left;
   width: 500px;
+  padding: 0;
 }
 
-.hollowBox {
-  text-align: center;
+blockquote{
   border:1px solid white;
   padding: 10px;
-  margin: 10px;
+  width: 100%;
+  margin-left: 0;
 }
