@@ -1,0 +1,223 @@
+body {
+    background-color: #f8f5e9;
+}
+
+h2 {
+  font-size: 32px; /*This size has been chosen according to the bootstrap standard header formula- 14*(1.25+0.5x). Here x has been choosen as 3 */
+}
+
+h3 {
+  font-size: 24px; /*This size has been chosen according to the bootstrap standard header formula- 14*(1.25+0.5x). Here x has been choosen as 1 */
+}
+
+nav li {
+  display: inline;
+  margin: 0;
+}
+
+nav li a{
+  font-size: 18px; /* This size has been chosen according to the bootstrap standard header formula- 14*(1.25+0.5x). Here x has been choosen as 0 */
+  text-decoration: none;
+  padding: 0 50px;
+  color: white;
+  font-family: Raleway,sans-serif;
+
+}
+
+nav li a:hover{
+  text-decoration:underline;
+}
+
+nav ul {
+  margin: 40px 20px;
+  float: right;
+  /*background-color: orange;*/
+}
+
+.heroVideo {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.heroContent{
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  z-index: 1000;
+  background-color: rgba(100,0,0,0.4);
+}
+
+.heroContent h1{
+  font-size: 101.5px;
+  /* This size has been chosen according to the bootstrap standard header formula- 14*(1.25+0.5x). Here x has been choosen as 15*/
+  letter-spacing: 3px;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  margin: 250px;
+  color: #bfb0a6;
+}
+.heroPage{
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: -1000;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+
+header h1 {
+  margin: 20px 20px;
+  float: left;
+  text-align: left;
+  /*background-color: brown;*/
+}
+
+/*These properties will be used in header and footer */
+.title{
+  font-size: 45.5px; /* This size has been chosen according to the bootstrap standard header formula- 14*(1.25+0.5x). Here x has been choosen as 4. */
+  font-family: 'Lobster', cursive;
+  margin-bottom: 20px;
+
+}
+
+header a{
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  width: 100%;
+  background-color: #4b280e;
+  opacity: 0.8;
+  z-index: 2;
+  overflow: hidden;
+  color: white;
+  position: fixed;
+
+}
+
+section p{
+  text-align: justify;
+  font-family: Raleway,sans-serif;
+  font-size: 18px; /*This size has been chosen according to the bootstrap standard header formula- 14*(1.25+0.5x). Here x has been choosen as 0 */
+}
+
+
+#theLatest img {
+  width:300px; /* you can use % */
+  height: 180px;
+}
+
+#theLatest a {
+  text-decoration: underline;
+
+}
+
+#theLatest h3, #theLatest p {
+  margin: 10px 0px;
+}
+
+
+
+#coffeeShow h3{
+  margin-bottom: 15px;
+}
+
+#ninjas h3{
+  margin-bottom: 10px;
+}
+
+.main{
+  margin: 10px 0;
+}
+
+.coffeeShow img {
+  width: 300px;
+  height: 227px;
+}
+
+.coffeeShow section:hover {
+  opacity: 0.4;
+}
+
+.ninjas img{
+  width: 300px;
+  height: 250px;
+}
+
+/*This is for the desciption of the ninjas*/
+.ninjaBio {
+  margin: 20px 0;
+}
+
+.secHearderWrapper {
+  margin-top: 100px;
+  position: relative;
+  text-align: center;
+}
+.sectionHeader {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 87.5px; /* This size has been chosen according to the bootstrap standard header formula- 14*(1.25+0.5x). Here x has been choosen as 10 */
+  position: relative;
+  color: #483f33;
+  margin: 0;
+  background-color: #f8f5e9;
+}
+
+/*This is for the line passing through the section header*/
+.secLine {
+  top: 51%;
+  overflow: hidden;
+  content: '\a0';
+  height: 4px;
+  background-color: #483f33;
+  position: absolute;
+  width: 100%;
+}
+
+.mainWrapper , .mainWrapper a {
+  font-family: Raleway,sans-serif;
+  color: #746054;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #4a3f30;
+  color: white;
+}
+
+footer p{
+  margin: 20px 0px;
+  font-size: 18px;
+  font-family: Raleway,sans-serif;
+}
+.contactNumbers strong{
+  border-bottom: 1px dotted white;
+}
+
+
+footer a{
+  color: white;
+  font-family: Raleway,sans-serif;
+  text-decoration: none;
+}
+
+.footerTitle {
+    margin: 25px 0px;
+    font-family: Raleway,sans-serif;
+
+}
+
+footer img {
+  height: 40px;
+  width: 40px;
+}
